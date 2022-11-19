@@ -2,45 +2,41 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Web Development Portfolio</title>
+  <meta charset="utf-8">
+  <title>Web Development Portfolio</title>
 
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&family=Ubuntu&display=swap"
-        rel="stylesheet">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&family=Ubuntu&display=swap"
+    rel="stylesheet">
 
-    <!-- bootstrap css -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <!-- bootstrap script -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+  <!-- bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
 
-    <!-- font awesome icons -->
-    <script src="https://kit.fontawesome.com/137b9ebb32.js" crossorigin="anonymous"></script>
+  <!-- font awesome icons -->
+  <script src="https://kit.fontawesome.com/137b9ebb32.js" crossorigin="anonymous"></script>
 
-    <!-- my stylesheet -->
-    <link rel="stylesheet" href="css/styles.css">
+  <!-- my stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/portfolio.css">
 </head>
 
 <body>
-    <!-- <a href="Section 01/index.html">Section 01</a>
-    <a href="Section 02/index.html">Section 02</a>
-    <a href="Section 03/index.html">Section 03</a>
-    <a href="Section 04/index.html">Section 04</a>
-    <a href="Section 04/cake-fansite.html">Section 04A</a>
-    <a href="Section 05/index.html">Section 05A</a>
-    <a href="Section 05/mushroom-house.html">Section 05B</a> -->
-    <section id="title">
-        <div>
-            <!-- Nav Bar -->
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
       <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="#">
           <img class="logo" src="images/logo.png" alt="logo">
@@ -52,61 +48,131 @@
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" href="">Experience</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Portfolio</a>
+              <a class="nav-link" href="#gallery">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Skills</a>
+              <a class="nav-link" href="#resume">Resumé</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Resumé</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="#footer">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
-            <h1>Web Development Portfolio</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. </p>
-            <button class="btn btn-lg btn-light">TBD</button>
-            <button class="btn btn-lg btn-light">TBD</button>
-        </div>
-    </section>
 
-    <section class="gallery">
-        <div class="row">
-            <div class="col-lg-4">
-                <div class="card shadow-sm">
-                    <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                        xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                        preserveAspectRatio="xMidYMid slice" focusable="false">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
-                            dy=".3em">Thumbnail</text>
-                    </svg>
+      <!-- Title -->
+      <img class="title-img" src="images/web.png" alt="Web Development">
+      <h1>Web Development Portfolio</h1>
 
-                    <div class="card-body">
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <div class="btn-group">
-                                <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
-                                <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
-                            </div>
-                        </div>
-                    </div>
+    </div>
+  </section>
+
+
+  <section id="gallery">
+
+    <div class="album py-5">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <svg class="card-img-top" width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#F7EBEA"></rect><text x="50%" y="50%" fill="#C68B7E"
+                  dy=".3em">Thumbnail</text>
+              </svg>
+              <div class="card-body">
+                <h5 class="card-title">Card Title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Demo</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">GitHub</button>
+                  </div>
                 </div>
+              </div>
             </div>
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4"></div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Portfolio Thumbnails/2.png" alt="Project 2 Portfolio Thumbnail">
+              <!-- <svg class="card-img-top" width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#F7EBEA"></rect><text x="50%" y="50%" fill="#C68B7E"
+                  dy=".3em">Thumbnail</text>
+              </svg> -->
+              <div class="card-body">
+                <h5 class="card-title">Start-up Idea Landing Page</h5>
+                <p class="card-text">YumYum is a start-up idea landing page for people who'd love to become professional chefs from the comfort of their home. It is built using HTML 5, CSS 3, Bootstrap 5.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group ">
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a class="portfolio-link" href="https://bhoamikhona.github.io/web-development-bootcamp/Section%2007/yumyum.html" target="_blank">Demo</a></button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary"><a class="portfolio-link" href="https://github.com/bhoamikhona/web-development-bootcamp/tree/main/Section%2007" target="_blank">GitHub</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img src="images/Portfolio Thumbnails/1.png" alt="Project 1 Portfolio Thumbnail">
+              <!-- <svg class="card-img-top" width="100%" height="225" role="img" preserveAspectRatio="xMidYMid slice"
+                focusable="false">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#F7EBEA"></rect><text x="50%" y="50%" fill="#C68B7E"
+                  dy=".3em">Thumbnail</text>
+              </svg> -->
+              <div class="card-body">
+                <h5 class="card-title">Personal Site Landing Page</h5>
+                <p class="card-text">Taking inspiration from <a class="card-description-link" href="https://dribbble.com/seanehalpin">Sean Halpin</a>'s beautiful and simple <a class="card-description-link" href="https://dribbble.com/shots/1287004/attachments/1287004-Portfolio-Live?mode=media">design</a>, I tried to create one of my own. This web-page is built purely using HTML 5 and CSS 3.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a class="portfolio-link" href="https://bhoamikhona.github.io/web-development-bootcamp/Section%2005/mushroom-house.html" target="_blank">Demo</a></button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary"><a class="portfolio-link" href="https://github.com/bhoamikhona/web-development-bootcamp/tree/main/Section%2005" target="_blank">GitHub</a></button>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </section>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- Resume -->
+
+  <section id="resume">
+
+    <img class="resume-img" src="images/logo.png" alt="logo">
+    <h2 class="custom-heading">My Resumé</h2>
+    <br>
+    <a href="documents/Bhoami Khona Resume.pdf" download>
+      <button class="btn btn-lg btn-light custom-button">Download</button>
+    </a>
+  </section>
+
+
+  <footer id="footer">
+
+    <a href="https://www.linkedin.com/in/bhoami-khona/" target="_blank"><i class="social-icon fa-brands fa-linkedin fa-2x"></i></a>
+    <a href="https://github.com/bhoamikhona" target="_blank"><i class="social-icon fa-brands fa-github fa-2x"></i></a>
+    <a href="mailto:bhoamikhona@gmail.com" target="_blank"><i class="social-icon fa-solid fa-envelope fa-2x"></i></a>
+    <p>© Copyright 2022 Portfolio | Bhoami Khona</p>
+
+  </footer>
+
+
 </body>
 
 </html>
