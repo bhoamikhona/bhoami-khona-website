@@ -35,6 +35,22 @@ p {
 
 /********** CLASS SELECTORS **********/
 
+/***** Generic CSS *****/
+.custom-button {
+    color: #C68B7E;
+}
+
+.custom-button:hover {
+    color: #d6aba1;
+}
+
+.custom-heading {
+    color: #C68B7E;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
 /***** Nav Bar *****/
 .navbar {
     padding: 0 0 4.5rem;
@@ -51,7 +67,6 @@ p {
 .nav-link {
     font-family: 'Montserrat' sans-serif;
     font-size: 1.2rem;
-    /* font-weight: 100; */
     color: #E1A297;
 }
 
@@ -79,62 +94,16 @@ p {
     padding: auto 0;
 }
 
-/***** Skills Section *****/
-.skills-icon {
-    color: #C68B7E;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+@media (max-width: 1028px) {
+    .title-img {
+      margin-left: 0;
+    }
+
 }
-  
-.skills-icon:hover {
-    color: #d6aba1;
-}
-  
+
+/***** Experience Section *****/
 .experience-box {
     padding: 5%;
-}
-  
-
-/***** Skills Section *****/
-.portfolio-img {
-    border-radius: 100%;
-    margin: 20px;
-    width: 10%;
-}
-  
-.carousel-item {
-    padding: 7% 15%;
-}
-
-.custom-heading {
-    /* margin: 150px auto auto; */
-    /* font-weight: 500; */
-    /* font-size: 75px; */
-    /* color: #EDC4BB; */
-    /* text-shadow:  -1px 0 #C68B7E, 0 1px #C68B7E, 1px 0 #C68B7E, 0 -1px #C68B7E, 1px 1px 2px #C68B7E, 0 0 25px #C68B7E, 0 0 5px #C68B7E; */
-    color: #C68B7E;
-    font-size: 35px;
-    font-weight: 500;
-}
-
-.custom-button {
-    color: #C68B7E;
-}
-
-.custom-button:hover {
-    color: #d6aba1;
-}
-
-.card {
-    border: none;
-}
-
-.details-icon {
-    margin-left: 18px;
-}
-
-.resume-img {
-    width: 300px;
 }
 
 .experience-logo {
@@ -149,9 +118,40 @@ p {
     width: 150px;
 }
 
-/* .fm-logo {
+/***** Portfolios Section *****/
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.portfolio-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+/***** Skills Section *****/
+.skills-icon {
+    color: #C68B7E;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 18px;
+}
+  
+.skills-icon:hover {
+    color: #d6aba1;
+}
+
+.card {
+    border: none;
+}
+
+/***** Resume Section *****/
+
+.resume-img {
     width: 300px;
-} */
+}
+
+/***** Footer Section *****/
 
 .social-icon {
     margin: 20px 10px;
@@ -174,7 +174,6 @@ p {
     background-color: white;
     position: relative;
     z-index: 1;
-    /* bottom: 165px; */
 }
 
 #portfolios {
