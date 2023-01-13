@@ -145,6 +145,11 @@ p {
     border: none;
 }
 
+.tech-logo {
+    width: 70px;
+    margin: auto;
+}
+
 /***** Resume Section *****/
 
 .resume-img {
@@ -184,7 +189,8 @@ p {
 }
 
 #skills {
-    text-align: left;
+    /* text-align: left; */
+    text-align: center;
     padding: 7% 15%;
     background-color: white;
 }
