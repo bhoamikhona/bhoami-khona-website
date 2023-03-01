@@ -1,0 +1,44 @@
+/********** TAG SELECTORS **********/
+
+h1 {
+    margin: auto;
+}
+
+
+/********** CLASS SELECTORS **********/
+.title-img {
+    margin: auto;
+    width: 300px;
+}
+
+
+.portfolio-link {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.portfolio-link:hover {
+    color: #ffffff;
+}
+
+.card-description-link {
+    color: #8f8f8f;
+}
+
+.card-description-link:hover {
+    color: #696969;
+}
+
+.btn-group {
+    margin-bottom: 10px;
+}
+
+/********** ID SELECTORS **********/
+
+#title {
+    text-align: center;
+}
+
+#gallery {
+    padding: 7% 8%;
+}

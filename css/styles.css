@@ -1,0 +1,214 @@
+/********** TAG SELECTORS **********/
+body {
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h1 {
+  margin: 150px auto auto;
+  font-weight: 500;
+  font-size: 75px;
+  color: #edc4bb;
+  text-shadow: -1px 0 #c68b7e, 0 1px #c68b7e, 1px 0 #c68b7e, 0 -1px #c68b7e,
+    1px 1px 2px #c68b7e, 0 0 25px #c68b7e, 0 0 5px #c68b7e;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h6 {
+  color: #595c5f;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/********** CLASS SELECTORS **********/
+
+/***** Generic CSS *****/
+.custom-button {
+  color: #c68b7e;
+}
+
+.custom-button:hover {
+  color: #d6aba1;
+}
+
+.custom-heading {
+  color: #c68b7e;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+/***** Nav Bar *****/
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: "Montserrat" sans-serif;
+  font-size: 1.2rem;
+  color: #e1a297;
+}
+
+.nav-link:hover {
+  color: #d67f6f;
+}
+
+/***** Title Section *****/
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.fsd {
+  color: #c68b7e;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.title-img {
+  width: 80%;
+  margin-left: 120px;
+}
+
+.center-align {
+  padding: auto 0;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    margin-left: 0;
+  }
+}
+
+/***** Experience Section *****/
+.experience-box {
+  padding: 5%;
+}
+
+.experience-logo {
+  filter: invert(74%) sepia(8%) saturate(1739%) hue-rotate(322deg)
+    brightness(81%) contrast(90%);
+}
+
+.experience-logo:hover {
+  filter: invert(85%) sepia(7%) saturate(1924%) hue-rotate(318deg)
+    brightness(88%) contrast(88%);
+}
+
+.au-logo {
+  width: 150px;
+}
+
+/***** Portfolios Section *****/
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.portfolio-img {
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/***** Skills Section *****/
+.skills-icon {
+  color: #c68b7e;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 18px;
+}
+
+.skills-icon:hover {
+  color: #d6aba1;
+}
+
+.card {
+  border: none;
+}
+
+.tech-logo {
+  width: 70px;
+  margin: auto;
+}
+
+/***** Resume Section *****/
+
+.resume-img {
+  width: 300px;
+}
+
+/***** Footer Section *****/
+
+.social-icon {
+  margin: 20px 10px;
+  color: #c68b7e;
+}
+
+.social-icon:hover {
+  color: #d6aba1;
+}
+
+/********** ID SELECTORS **********/
+
+#title {
+  background-color: #f7ebea;
+}
+
+#experience {
+  text-align: left;
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+#portfolios {
+  padding: 7% 15%;
+  background-color: #f7ebea;
+  color: #c68b7e;
+  text-align: center;
+}
+
+#skills {
+  /* text-align: left; */
+  text-align: center;
+  padding: 7% 0;
+  background-color: white;
+}
+
+#resume {
+  padding: 7% 15%;
+  background-color: #f7ebea;
+  text-align: center;
+}
+
+#footer {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+}

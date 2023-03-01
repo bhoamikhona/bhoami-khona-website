@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Bhoami Khona Portfolio</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600;700;900&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- font awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/137b9ebb32.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- my stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <section id="title">
+      <div class="container-fluid">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">
+            <img class="logo" src="images/logo.png" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolios">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resumé</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Title -->
+        <div class="row">
+          <div class="col-lg-6 center-align">
+            <h1>BHOAMI KHONA</h1>
+            <h2 class="fsd">A Programmer</h2>
+          </div>
+          <div class="col-lg-6">
+            <img
+              class="title-img"
+              src="images/headshot.png"
+              alt="bhoami-khona-headshot"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+
+    <section id="experience">
+      <div class="row">
+        <div class="experience-box col-lg-6">
+          <img
+            class="experience-logo au-logo"
+            src="images/au-logo.png"
+            alt="Auburn University Logo"
+          />
+          <h3>Auburn University</h3>
+          <h6>Web Developer</h6>
+          <p>
+            While working at Auburn University, I designed built, and maintained
+            several websites and webpages while working with staff and faculties
+            across 8 different departments of College of Agriculture every
+            single day.
+          </p>
+        </div>
+        <div class="experience-box col-lg-6">
+          <img
+            class="experience-logo fm-logo"
+            src="images/fm-logo.png"
+            alt="Freedom Mortgage Corporation Logo"
+          />
+          <h3>Freedom Mortgage</h3>
+          <h6>Software Developer</h6>
+          <p>
+            I was a part of First Flyer Program at Freedom Mortgage as a
+            Software Developer which is a competitive rotational program to gain
+            experience and broader knowledge across multiple IT areas, including
+            Machine Learning, UX, and UAT in an agile environment.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolios -->
+
+    <section id="portfolios">
+      <div
+        id="portfolio-carousel"
+        class="carousel carousel-dark slide"
+        data-bs-ride="carousel"
+        data-bs-interval="5000"
+        data-bs-pause="hover"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class=".portfolio-img"
+              src="images/web.png"
+              alt="Web Development Image"
+            />
+            <h2 class="custom-heading">Web Development</h2>
+            <a href="web-development-portfolio.html">
+              <button class="btn btn-lg btn-light custom-button">
+                View Portfolio
+              </button>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class=".portfolio-img"
+              src="images/python.png"
+              alt="Python Development Image"
+            />
+            <h2 class="custom-heading">Python Development</h2>
+            <a href="python-development-portfolio.html">
+              <button class="btn btn-lg btn-light custom-button">
+                View Portfolio
+              </button>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <img
+              class=".portfolio-img"
+              src="images/frontend-mentor.png"
+              alt="Frontend Mentor Image"
+            />
+            <h2 class="custom-heading">Frontend Mentor Challenges</h2>
+            <a href="frontend-mentor-challenges.html">
+              <button class="btn btn-lg btn-light custom-button">
+                View Portfolio
+              </button>
+            </a>
+          </div>
+
+          <!-- <div class="carousel-item">
+            <img
+              class=".portfolio-img"
+              src="images/iOS.png"
+              alt="iOS Development Image"
+            />
+            <h2 class="custom-heading">iOS Development</h2>
+            <a href="ios-development-portfolio.html">
+              <button class="btn btn-lg btn-light custom-button">
+                View Portfolio
+              </button>
+            </a>
+          </div> -->
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#portfolio-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#portfolio-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <!-- skill-icon: css class -->
+
+    <section id="skills">
+      <section id="gallery">
+        <div class="album py-5">
+          <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/python.png"
+                    class="experience-logo tech-logo"
+                    alt="Python"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Python</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/html.png"
+                    class="experience-logo tech-logo"
+                    alt="HTML"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">HTML</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/css.png"
+                    class="experience-logo tech-logo"
+                    alt="CSS"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">CSS</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/bootstrap.png"
+                    class="experience-logo tech-logo"
+                    alt="Bootstrap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Bootstrap</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/javascript.png"
+                    class="experience-logo tech-logo"
+                    alt="Javascript"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Javascript</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/jquery.png"
+                    class="experience-logo tech-logo"
+                    alt="jQuery"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">jQuery</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/command-line.png"
+                    class="experience-logo tech-logo"
+                    alt="Command Line"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Command Line</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/node-js.png"
+                    class="experience-logo tech-logo"
+                    alt="Node.js"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Node.js</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/express-js.png"
+                    class="experience-logo tech-logo"
+                    alt="Express.js"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Express.js</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/api.png"
+                    class="experience-logo tech-logo"
+                    alt="API"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">API</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/git.png"
+                    class="experience-logo tech-logo"
+                    alt="Git"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Git</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/github.png"
+                    class="experience-logo tech-logo"
+                    alt="GitHub"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">GitHub</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/ejs.png"
+                    class="experience-logo tech-logo"
+                    alt="EJS"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">EJS</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/sql.png"
+                    class="experience-logo tech-logo"
+                    alt="SQL"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">SQL</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/mongodb.png"
+                    class="experience-logo tech-logo"
+                    alt="MongoDB"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">MongoDB</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/mongoose.png"
+                    class="experience-logo tech-logo"
+                    alt="Mongoose"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Mongoose</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/rest-api.png"
+                    class="experience-logo tech-logo"
+                    alt="RESTful API"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">RESTful API</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/passport-js.png"
+                    class="experience-logo tech-logo"
+                    alt="Passport.js"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Passport.js</h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col">
+                <div class="card h-100">
+                  <img
+                    src="images/tech-logos/react-js.png"
+                    class="experience-logo tech-logo"
+                    alt="React.js"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">React.js</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Resume -->
+
+    <section id="resume">
+      <img class="resume-img" src="images/logo.png" alt="logo" />
+      <h2 class="custom-heading">My Resumé</h2>
+      <br />
+      <a href="documents/Resume - Khona, Bhoami.pdf" target="_blank">
+        <button class="btn btn-lg btn-light custom-button">Download</button>
+      </a>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+      <a href="https://www.linkedin.com/in/bhoami-khona/" target="_blank"
+        ><i class="social-icon fa-brands fa-linkedin fa-2x"></i
+      ></a>
+      <a href="https://github.com/bhoamikhona" target="_blank"
+        ><i class="social-icon fa-brands fa-github fa-2x"></i
+      ></a>
+      <a href="mailto:bhoamikhona@gmail.com" target="_blank"
+        ><i class="social-icon fa-solid fa-envelope fa-2x"></i
+      ></a>
+      <p>© Copyright 2023 Portfolio | Bhoami Khona</p>
+    </footer>
+  </body>
+</html>
